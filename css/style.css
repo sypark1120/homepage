@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/* reset */
+* {margin:0; padding:0;}
+ul, li {margin:0; padding:0; list-style:none;} 
+a {text-decoration: none;} /* 링크 선 없애기 */
+
+/* img - float */
+img {float:left; margin:15px;}
+/* margin : 15px (상.하.왼.오)
+margin : 15px 20px (상하.왼오)
+margin : 0 20px 40px 10px (상.오.하.왼) */
+
+p {font-size:12px; 
+color:#999; /* 글자색 */
+line-height:1.7;
+}
+.skyblue {color:skyblue;
+font-weight: bold;
+font-size:18px;
+
+}
+.pink {color:pink;
+    font-weight: bold;
+    font-size:18px;
+    text-decoration: underline;}
+/* 웹브라우저 100% 폰트크기 : 16px (1em) */
+
+
+/* 공지사항 */
+
+.notice { width:700px; height:220px;
+    border:1px solid skyblue;}
+.notice h1 {font-size:20px; padding:6px;}
+.notice ul {padding:6px;} 
+
+.notice ul li {height:30px; 
+    border-bottom: 1px dotted #ddd;
+    line-height:30px;}
+
+
+.notice ul li a{font-size:14px;
+color:#333;}
+.notice ul li a:hover {
+    color:skyblue; 
+    text-decoration: underline;
+}
+
+.notice ul li span{font-size:12px; float:right;
+color:#ddd; }
